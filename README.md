@@ -9,6 +9,8 @@ Below is a list of technologies used in this project:
 | Package Name | Link                                     | Use Case                                    |
 |--------------|------------------------------------------|---------------------------------------------|
 | Go        | [Go](https://go.dev/)            | Golang          |
+| pgx       | [pgx](https://github.com/jackc/pgx/wiki/Getting-started-with-pgx)             | Postgres driver          |
+| Branca       | [branca](https://github.com/hako/branca)             | Secure alternative to JWT          |
 
 ## Images
 ### Screenshots
