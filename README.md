@@ -12,6 +12,7 @@ Below is a list of technologies used in this project:
 | pgx       | [pgx](https://github.com/jackc/pgx/wiki/Getting-started-with-pgx)             | Postgres driver          |
 | Branca       | [branca](https://github.com/hako/branca)             | Secure alternative to JWT          |
 | CockroachDB       | [cockroachDb](https://www.cockroachlabs.com/)             | Distributed SQL database          |
+| Way router       | [way](https://github.com/matryer/way)             | HTTP router for Go          |
 
 ## Database
 **Install** -> `brew install cockroachdb/tap/cockroach`
