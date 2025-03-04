@@ -11,6 +11,19 @@ Below is a list of technologies used in this project:
 | Go        | [Go](https://go.dev/)            | Golang          |
 | pgx       | [pgx](https://github.com/jackc/pgx/wiki/Getting-started-with-pgx)             | Postgres driver          |
 | Branca       | [branca](https://github.com/hako/branca)             | Secure alternative to JWT          |
+| CockroachDB       | [cockroachDb](https://www.cockroachlabs.com/)             | Distributed SQL database          |
+
+## Database
+**Install** -> `brew install cockroachdb/tap/cockroach`
+
+**Verify** -> `cockroach version`
+
+**Usage**
+1. Start a single node cluster -> `cockroach start-single-node --insecure --listen-addr=localhost`
+
+2. Stop cockroach server -> `pkill cockroach`
+
+3. Apply schema to cockroach instance -> `cockroach sql --insecure --database=<mydatabase> < <path/to/schema.sql>`
 
 ## Images
 ### Screenshots
